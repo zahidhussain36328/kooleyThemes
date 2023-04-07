@@ -1,0 +1,140 @@
+@media(max-width:1599px){ 
+    /* 1400px to  1599px */
+    /* lg-screens */
+
+}
+@media(max-width:1399px){ 
+    /* 1200px to  1399px */
+    /* full laptops */
+}
+@media(max-width:1199px){ 
+    /* 992px to  1199px */
+    /* small laptops */
+    
+}
+@media(max-width:991px){ 
+    /* 768px to  991px */
+    /* tablets */
+    
+}
+@media(max-width:767px){
+    /* 540px to  767px */
+    /* tablets and bigger mobiles */
+    .desc-logo {
+        display: none !important;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: #ebf5f7;
+        top: 70px;
+        padding-top: 10px;
+        left: -100%;
+        transition: all .5s ease-in-out;
+    }
+
+    nav ul.show {
+        left: 0;
+    }
+
+    nav .nav-item {
+        padding-left: 10px;
+    }
+
+    .sticky-top {
+        position: fixed;
+        width: 100%;
+        z-index: 1020;
+        padding: 20px !important;
+    }
+.dexk_container{
+    display: none !important;
+}
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+    #bar-icon {
+        border: none;
+    }
+
+    .black-overlay {
+        width: 100%;
+        background: black;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;  
+        transition: 0.5s;
+    }
+    .navbar-brand.mobile {
+        display: block;
+    }
+    .navbar .container {
+        display: contents;
+    }
+    /* desktop to mobile */
+    .mobile_app h1, .our_work h1, .company h1{
+        font-size: 46px;
+        margin: 30px;
+    }
+    .company p{
+        margin: 0 30px;
+    }
+    .form_box .form-input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .form_box{
+        padding: 20px;
+        margin: 0 auto;
+        width: 100%!important;
+
+    }
+    .expertise{
+        padding: 30px 20px;
+    }
+    .primary_heading{
+        font-size: 28px;
+    }
+    .craft_mobile .img_box {
+        justify-content: center;
+    }
+    .craft_mobile img{
+        transform: rotate(90deg);
+        margin-bottom: 20px;
+    }
+
+.meeting_bannner {
+    padding: 60px 0;
+}
+.banner h1 {
+    font-size: 24px;
+}
+.thinking_pro {
+    padding: 50px 0;
+}
+.inter_heading {
+    font-size: 24px;
+}
+    
+}
+@media(max-width:539px){
+    /* 360px to  539px */
+    /* normal mobiles */
+}
+@media(max-width:359px){
+    /* 320px to  359px */
+    /* small mobile */
+}
+/* @media screen and (min-width: 1280px){
+.sub-heading--counter{
+    height: 70px;
+    font-size: 16px;
+    line-height: 24px;
+}
+} */

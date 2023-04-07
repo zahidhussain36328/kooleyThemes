@@ -1,0 +1,58 @@
+/* === Navbar ===  */
+:root{
+    --bgColor:#15158F;
+    --primaryColor:#6F7BC5;
+    --secondaryColor:#C3D4EE;
+	--whiteBg:#FFFEFB;
+	--whiteColor:#FFF;
+}
+.navbar {
+    background: var(--whiteColor);
+	padding-top: 30px;
+}
+.navbar{
+	position: fixed;
+	width: 100%;
+}
+/* .navbar-collapse {
+    justify-content: center;
+} */
+.navbar-brand.mobile {
+	display: none;
+}
+.navbar-brand.desktop {
+	display: block;
+}
+.nav-link {
+	font-weight: 500;
+}
+.navbar-brand {
+	font-weight: bold;
+}
+.btn.demo {
+	background-color: #FC4236;
+	color: #fff !important;
+	border-radius: 50px;
+    font-weight: 600;
+    border: none;
+    padding: 13px 38px;
+}
+.right-menu .signin-btn{
+    color: #fff;
+    margin-right: 31px;
+}
+.sticky-top{
+	transition: all 0.5s ease-in-out;
+	padding: 22px 0 !important;
+}
+.bg-white{
+	box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+	transition: all 0.5s ease-in-out;
+	padding: 15px 0 !important;
+}
+.navbar-nav .nav-link{
+    color: #fff;
+}
+.right-menu ul{
+	margin-bottom: 0!important;
+}
