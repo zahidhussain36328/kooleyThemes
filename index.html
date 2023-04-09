@@ -81,7 +81,8 @@
                     <div class="col-md-6" >
                         <img src="assets/images/appDve.png" alt="">
                     </div>
-                    <div class="col-md-6" >
+                    <div class="col-md-6 thinking_pro-content--box" >
+                        <div class="content_box">
                         <h2 class="primary_heading">TAKING YOUR PRODUCT TO NEW HEIGHTS.</h2>
                         <p>
                             Whether you are entering a new market or adding a product to your offerings, growing and
@@ -90,6 +91,7 @@
                             limits of marketing at scale. That’s why we specialize in providing direct marketing
                             solutions with our homegrown sales team.</p>
                     </div>
+                </div>
                 </div>
             </section>
             <!-- section3 -->
@@ -277,7 +279,13 @@
     <script src="assets/js/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init({
+        offset: 170,
+        delay: 100,
+        duration: 1200,
+        easing: 'ease',
+        once: true,
+    });
     </script>
 </body>
 

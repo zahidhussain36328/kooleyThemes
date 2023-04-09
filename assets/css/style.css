@@ -342,3 +342,10 @@ line-height: 146.02%;
     color: var(--primaryColor);
 	margin: 0 100px;
   }
+.thinking_pro-content--box{
+	display: flex;
+	align-items: center;
+}
+.thinking_pro-content--box .content_box{
+	padding: 70px;
+}
