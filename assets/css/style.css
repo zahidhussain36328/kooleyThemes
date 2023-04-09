@@ -218,6 +218,8 @@ a:hover {
 	text-align: center;
 } .craft_mobile--content p {
 	color: #000;
+	font-size: 16px;
+    line-height: 1.7;
 }
 .craft_mobile--content h3 {
 	color: #15158F;
@@ -318,7 +320,9 @@ a:hover {
   .our_work img{
 	border: 1px solid #cdcbcb;
 	transition: all 0.3s ease-in-out;
-
+    height: 230px;
+    width: 340px;
+    object-fit: cover;
   }
   .our_work img:hover{
 	background:#f7f6fa;

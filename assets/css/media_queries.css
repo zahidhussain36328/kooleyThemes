@@ -121,7 +121,9 @@
 .inter_heading {
     font-size: 24px;
 }
-    
+.thinking_pro-content--box .content_box {
+    padding: 20px;
+}
 }
 @media(max-width:539px){
     /* 360px to  539px */
