@@ -25,6 +25,7 @@
 }
 .nav-link {
 	font-weight: 500;
+	border: none;
 }
 .navbar-brand {
 	font-weight: bold;
