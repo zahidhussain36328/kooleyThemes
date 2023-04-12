@@ -1,4 +1,36 @@
+$(document).ready(function () {
+  $(".toggle-menu").click(function () {
+$(this).addClass("dnone");
+$(".body-aside").addClass("active");
+$(".navlist").addClass("active");
+$(".asid-bg").addClass("active");
+$(".nav-logo").addClass("active");
+$(".close-btn").removeClass("dnone").addClass("active");
+$(".mobile-nav").addClass("position_fixed");
 
+
+});
+
+$(".close-btn").click(function () {
+$(this).addClass("dnone").removeClass("active");
+$(".body-aside").removeClass("active");
+$(".navlist").removeClass("active");
+$(".asid-bg").removeClass("active");
+$(".nav-logo").removeClass("active");
+$(".toggle-menu").removeClass("dnone");
+$(".mobile-nav").removeClass("position_fixed");
+
+});
+$(".togle_nav_link").click(function () {
+$(".close-btn").addClass("dnone").removeClass("active");
+$(".body-aside").removeClass("active");
+$(".navlist").removeClass("active");
+$(".asid-bg").removeClass("active");
+$(".nav-logo").removeClass("active");
+$(".toggle-menu").removeClass("dnone");
+$(".mobile-nav").removeClass("position_fixed");
+})
+})
 $(document).ready(function() {
     // communities section box slide animation
     $('.box').click(function() {
