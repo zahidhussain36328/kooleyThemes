@@ -1,38 +1,50 @@
-@media(max-width:1599px){ 
+@media(max-width:1599px) {
     /* 1400px to  1599px */
     /* lg-screens */
 
 }
-@media(max-width:1399px){ 
+
+@media(max-width:1399px) {
     /* 1200px to  1399px */
     /* full laptops */
 }
-@media(max-width:1199px){ 
+
+@media(max-width:1199px) {
     /* 992px to  1199px */
     /* small laptops */
-    
+
 }
-@media(max-width:991px){ 
+
+@media(max-width:991px) {
+
     /* 768px to  991px */
     /* tablets */
-    .navbar-collapse{
+    .navbar-collapse {
         display: flex;
     }
+
     .thinking_pro-content--box .content_box {
         padding: 10px;
     }
+
     .expertise {
         padding: 50px 50px;
     }
-    .mobile_app h1, .our_work h1, .company h1{
-    font-size: 76px;
-    margin: 40px;
+
+    .mobile_app h1,
+    .our_work h1,
+    .company h1 {
+        font-size: 76px;
+        margin: 40px;
     }
-    .kooley_heading{
+
+    .kooley_heading {
         margin-top: 50px;
     }
 }
-@media(max-width:767px){
+
+@media(max-width:767px) {
+
     /* 540px to  767px */
     /* tablets and bigger mobiles */
     .desc-logo {
@@ -64,12 +76,15 @@
         z-index: 1020;
         padding: 20px !important;
     }
-.dexk_container{
-    display: none !important;
-}
+
+    .dexk_container {
+        display: none !important;
+    }
+
     .navbar-toggler:focus {
         box-shadow: none !important;
     }
+
     #bar-icon {
         border: none;
     }
@@ -83,93 +98,121 @@
         bottom: 0;
         left: 0;
         right: 0;
-        z-index: 999;  
+        z-index: 999;
         transition: 0.5s;
     }
+
     .navbar-brand.mobile {
         display: block;
     }
+
     .navbar .container {
         display: contents;
     }
+
     /* desktop to mobile */
-    .mobile_app h1, .our_work h1, .company h1{
+    .mobile_app h1,
+    .our_work h1,
+    .company h1 {
         font-size: 46px;
         margin: 30px;
     }
-    .company p{
+
+    .company p {
         margin: 0 30px;
     }
-    .form_box .form-input{
+
+    .form_box .form-input {
         width: 100%;
         margin-bottom: 10px;
     }
-    .form_box{
+
+    .form_box {
         padding: 20px;
         margin: 0 auto;
-        width: 100%!important;
+        width: 100% !important;
 
     }
-    .expertise{
+
+    .expertise {
         padding: 30px 20px;
     }
-    .primary_heading{
+
+    .primary_heading {
         font-size: 28px;
     }
+
     .craft_mobile .img_box {
         justify-content: center;
     }
-    .craft_mobile img{
+
+    .craft_mobile img {
         transform: rotate(90deg);
         margin-bottom: 20px;
     }
+    .craft_mobile .form_img{
+        transform: rotate(0deg);
+    }
+    .meeting_bannner {
+        padding: 60px 0;
+    }
 
-.meeting_bannner {
-    padding: 60px 0;
-}
-.banner h1 {
-    font-size: 24px;
-}
-.thinking_pro {
-    padding: 50px 0;
-}
-.inter_heading {
-    font-size: 24px;
-}
-.thinking_pro-content--box .content_box {
-    padding: 20px;
-}
-.footer_box {
-    padding: 50px 10px;
-    border-radius: 0px;
+    .banner h1 {
+        font-size: 24px;
+    }
 
+    .thinking_pro {
+        padding: 50px 0;
+    }
+
+    .inter_heading {
+        font-size: 24px;
+    }
+
+    .thinking_pro-content--box .content_box {
+        padding: 20px;
+    }
+
+    .footer_box {
+        padding: 50px 10px;
+        border-radius: 0px;
+        margin-bottom: 0px;
+
+    }
+
+    footer .container {
+        padding: 0px;
+    }
+
+    .heading_footer {
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer_img_box img {
+        width: 200px;
+    }
+
+    .footer_img_box {
+        justify-content: center;
+    }
+
+    .footer_links .col-sm-6 {
+        width: 50%;
+    }
 }
-footer .container{
-    padding: 0px;
-}
-.heading_footer {
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.footer_img_box img {
-    width: 200px;
-}
-.footer_img_box {
-    justify-content: center;
-}
-.footer_links .col-sm-6{
-    width: 50%;
-}
-}
-@media(max-width:539px){
+
+@media(max-width:539px) {
     /* 360px to  539px */
     /* normal mobiles */
 }
-@media(max-width:359px){
+
+@media(max-width:359px) {
     /* 320px to  359px */
     /* small mobile */
 }
+
 /* @media screen and (min-width: 1280px){
 .sub-heading--counter{
     height: 70px;
