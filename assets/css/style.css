@@ -19,6 +19,7 @@ body,
 html {
 	font-family: 'Josefin Sans', sans-serif;
 	background-color: var(--whiteBg);
+	scroll-behavior: smooth;
 }
 
 h1,
@@ -169,7 +170,7 @@ a:hover {
 }
 .expertise{
 	background-color: var(--bgColor);
-    padding: 100px 50px;
+    padding: 50px 200px;
 }
 .expertise p{
 	color: var(--whiteColor);
@@ -178,13 +179,15 @@ a:hover {
 .thinking_pro{
 	padding: 100px 0;
 }
-.expertise .expertise_box{
+/* .expertise .expertise_box{
 	display: flex;
     justify-content: center;
 	 align-items: flex-start;
-}
+} */
 .expertise .expertise_box .primary_heading{
 	color: var(--whiteColor);
+	font-size: 52px;
+    line-height: 1.7;
 }
 .mobile_app h1, .our_work h1, .company h1{
 	line-height: 146%;
