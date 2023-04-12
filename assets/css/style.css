@@ -5,7 +5,7 @@
 }
 
 :root {
-	--bgColor: #15158F;
+	--bgColor: #1b4ecc;
 	--primaryColor: #6F7BC5;
 	--secondaryColor: #C3D4EE;
 	--whiteBg: #FFFEFB;
@@ -318,17 +318,17 @@ a:hover {
 	transform: rotate(45deg);
   }
   .our_work img{
-	border: 1px solid #cdcbcb;
 	transition: all 0.3s ease-in-out;
-    height: 230px;
-    width: 340px;
-    object-fit: cover;
+    height: 7rem;
+    width: 100%;
+	margin-bottom: 10px;
   }
   .our_work img:hover{
-	background:#f7f6fa;
-    box-shadow: 1px 5px 10px #e8e8e8;
-	/* transform: scale(1.1); */
+	transform: scale(1.02);
 	transition: all 0.3s ease-in-out;
+  }
+  .our_work .card_box{
+	text-align: center;
   }
   .inter_heading{
 	font-family: 'Inter';
@@ -352,4 +352,44 @@ line-height: 146.02%;
 }
 .thinking_pro-content--box .content_box{
 	padding: 70px;
+}
+/* footer section styling */
+.footer_box{
+	background-color: var(--bgColor);
+	border-radius: 10px;
+	padding: 60px;
+	margin-bottom: 20px;
+}
+.heading_footer{
+	color: var(--whiteColor);
+	font-size: 100px;
+    font-style: normal;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+}
+.footer_links h3, .footer_links a, .footer_links p{
+	color: var(--whiteColor);
+	
+}
+.footer_links h3{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.footer_links a{
+	text-decoration: none;
+	
+}
+.footer_img_box{
+	display: flex;
+    align-items: center;
+}
+.footer_img_box img{
+	width: 300px;
+}
+.form_img{
+	height: auto !important;
+	width: 60% !important;
+}
+.our_work .card_box h3{
+	font-size: 22px;
 }

@@ -15,7 +15,22 @@
 @media(max-width:991px){ 
     /* 768px to  991px */
     /* tablets */
-    
+    .navbar-collapse{
+        display: flex;
+    }
+    .thinking_pro-content--box .content_box {
+        padding: 10px;
+    }
+    .expertise {
+        padding: 50px 50px;
+    }
+    .mobile_app h1, .our_work h1, .company h1{
+    font-size: 76px;
+    margin: 40px;
+    }
+    .kooley_heading{
+        margin-top: 50px;
+    }
 }
 @media(max-width:767px){
     /* 540px to  767px */
@@ -123,6 +138,28 @@
 }
 .thinking_pro-content--box .content_box {
     padding: 20px;
+}
+.footer_box {
+    padding: 50px 10px;
+    border-radius: 0px;
+
+}
+footer .container{
+    padding: 0px;
+}
+.heading_footer {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer_img_box img {
+    width: 200px;
+}
+.footer_img_box {
+    justify-content: center;
+}
+.footer_links .col-sm-6{
+    width: 50%;
 }
 }
 @media(max-width:539px){
