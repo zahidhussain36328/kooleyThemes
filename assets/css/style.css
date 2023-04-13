@@ -170,7 +170,13 @@ a:hover {
 }
 .expertise{
 	background-color: var(--bgColor);
-    padding: 50px 200px;
+    padding: 50px 150px;
+}
+.almost_text{
+	position: absolute;
+    top: -35px;
+    font-size: 38px;
+    font-style: italic;
 }
 .expertise p{
 	color: var(--whiteColor);
@@ -186,8 +192,9 @@ a:hover {
 } */
 .expertise .expertise_box .primary_heading{
 	color: var(--whiteColor);
-	font-size: 52px;
-    line-height: 1.7;
+	font-size: 72px;
+    line-height: 1.3;
+	position: relative;
 }
 .mobile_app h1, .our_work h1, .company h1{
 	line-height: 146%;
