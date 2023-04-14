@@ -421,3 +421,11 @@ line-height: 146.02%;
 .supporting_box{
 	padding: 0 200px;
 }
+.expertise-txt{
+	font-size: 22px;
+}
+.d-all-p{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
