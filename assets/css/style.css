@@ -402,9 +402,7 @@ line-height: 146.02%;
 	height: auto !important;
 	width: 60% !important;
 }
-.our_work .card_box h3{
-	font-size: 22px;
-}
+
 .working_box{
 	border-top: 1px solid #1b4ecc;
     border-bottom: 1px solid #1b4ecc;
@@ -434,14 +432,14 @@ line-height: 146.02%;
 .supporting_box img, .grow_box img, .learn_box img{
 	height: 11.875rem !important;
 }
-.supporting_box p, .grow_box p, .learn_box p{
+.supporting_box p, .grow_box p, .learn_box p, .our_work .card_box p{
 	color: #1b4ecc;
     font-size: 1.375rem;
     margin-top: 1.25rem;
 	font-weight: 300;
 
 }
-.supporting_box h4, .grow_box h4, .learn_box h4{
+.supporting_box h4, .grow_box h4, .learn_box h4, .our_work .card_box h4{
 	color: #1b4ecc;
 	line-height: 1.25;
     letter-spacing: .01em;
@@ -449,4 +447,18 @@ line-height: 146.02%;
     text-transform: uppercase;
     margin-top: 1.25rem;
 	font-weight: 400;
+}
+.brand_sec{
+	justify-content: center;
+}
+.brand_sec .img_box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 230px;
+
+}
+.brand_sec .img_box img{
+    width: 200px;
+
 }

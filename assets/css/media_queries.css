@@ -12,7 +12,21 @@
 @media(max-width:1199px) {
     /* 992px to  1199px */
     /* small laptops */
-
+    .expertise {
+        padding: 50px 40px;
+    }
+    .expertise_box svg{
+        transform: scale(.7);
+    }
+    .expertise-txt {
+        font-size: 18px;
+    }
+    .btn_box {
+        margin-top: 0px !important;
+    }
+    .supporting_box {
+        padding: 0px 0px;
+    }
 }
 
 @media(max-width:991px) {
@@ -41,6 +55,12 @@
     .kooley_heading {
         margin-top: 50px;
     }
+    .supporting_box {
+        padding: 0 10px;
+    }
+   
+    
+    
 }
 
 @media(max-width:767px) {
@@ -199,6 +219,28 @@
     }
 
     .footer_links .col-sm-6 {
+        width: 50%;
+    }
+    .expertise .expertise_box .primary_heading{
+        font-size: 52px;
+    }
+    .working_box h3{
+        font-size: 18px;
+    }
+    .supporting_box img, .grow_box img, .learn_box img{
+        height: auto !important;
+    }
+    .supporting_box p, .grow_box p, .learn_box p, .our_work .card_box p{
+        text-align: left;
+    font-size: .999625rem;
+    }
+    #about_us .expertise_box {
+        margin-bottom: 10px !important;
+    }
+    .brand_sec img{
+        width: 100px;
+    }
+    .brand_sec .col-sm-6{
         width: 50%;
     }
 }

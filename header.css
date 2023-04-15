@@ -243,7 +243,7 @@ body{
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-				padding: 0 15px 15px;
+			    padding: 20px 15px 20px;
 				margin: 0 15px;
 				border-bottom: 1px solid #123c98;
     }
